@@ -5,7 +5,6 @@ then
 
 {
 echo "<txt><span weight='normal' fgcolor='#C2C2C3'>$(audtool current-song)</span></txt>"
-#echo "<bar>$(current-song-output-length/audtool current-song-length)/bar>"
 echo "<tool><span size='large' weight='ultrabold'>$(audtool current-song-tuple-data album)</span>
 
 $(audtool current-song-tuple-data artist)
